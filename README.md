@@ -18,6 +18,9 @@ Metric Learning is a useful method for face identification and other pattern rec
 However, despite all of us having unique features on our faces, the Covid-19 pandemic brought a major problem for facial recognition models: face masks. Covering an important part of our face, from which deep learning models extracted features to compute the descriptor vector, facial recognition models presented a high rate of failures. Some solutions have been found to overcome this problem. The proposed solution will follow these steps:
 
 1 - Train a neural network model on the "post-processed.zip" dataset (the dataset contains a wide variety of celebrities).
+
 2 - Once the model is trained, you should create a database with images of the celebrities and the output of the descriptor vector from your model.
+
 3 - After training the neural network, you should include the person "Davi" without a mask in the database.
+
 4 - Once steps (1), (2), and (3) are completed, you should use the image of the person "Davi" from item (3) wearing a face mask and perform facial recognition on it.
